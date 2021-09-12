@@ -1,11 +1,12 @@
 import styles from '../styles/Modular.module.css'
-import Link from 'next/link'
+import Layout from '../components/Layout'
 
 export default function Modular() {
   return (
-    <div className={styles.purple}>
-      <Link href="/">Voltar</Link>
+    <Layout titulo="Exemplo de css modularizado">
+      <div className={styles.purple}>
       <h1>Aplicando estilo com css module </h1>
     </div>
+    </Layout>
   )
 }
