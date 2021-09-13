@@ -13,6 +13,7 @@ export default function Initial() {
       <Navigation text="Example" destiny="/example" cor="#1bad2a"/>
       <Navigation text="JSX" destiny="/jsx" cor="crimson"/>
       <Navigation text="Navegação #01" destiny="/navigation" cor="blue"/>
+      <Navigation text="Navegação #02" destiny="/client/123" cor="orange"/>
     </div>
   )
 }
